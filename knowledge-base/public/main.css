@@ -1,0 +1,216 @@
+﻿body {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	margin:0px;
+	padding:5px;
+}
+
+p {
+	font-weight: normal;
+	text-align: center;
+	/*margin-bottom: 25px;*/
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align:center;
+	font-size:24px;
+    margin:10px;
+	font-weight:normal;
+}
+h5 {
+	text-align:center;
+	font-size:inherit;
+    margin:10px;
+	font-weight:normal;
+	color: #06C;
+}
+table {
+	margin: auto;
+	border-collapse: collapse;
+	text-align: left;
+	width:100%;
+	/*background:#FFEEFF;*/
+	background:#f9FFf9;
+	float:none;
+	margin-bottom:30px;
+	/* vertical-align:text-top; */
+	text-align:center;
+	max-width: 1400px;
+}
+
+tr:hover {
+	/*background:#FCF;*/
+	/*background:#ffb;*/
+	background:#efe;
+}
+tr {
+	padding:0px;
+	margin:0px;
+	width:0px !important;
+}
+tr:first-child {
+	/*background:#F9F;*/
+	background:#efe;
+	font-weight:bold;
+}
+tr:last-child {
+	/*background:#f9FFf9;*/
+	font-weight:normal;
+}
+td {
+	padding:5px 5px !important;
+	margin:0;
+	border:1px solid #333;
+	width:0px !important;
+}
+td p {
+	margin:0;
+}
+
+.invisible-table td a {display:block;}
+
+.blue {
+	color: #06C;
+}
+
+.invisible-table {
+	background:none;
+	width:auto;
+}
+
+.invisible-table tr:first-child {
+	background:none;
+	font-weight:normal;
+}
+
+.invisible-table tr:last-child {
+	background:none;
+	font-weight:normal;
+}
+
+.invisible-table tr:hover {
+	background:none;
+}
+
+.invisible-table td {
+	border:none;
+}
+
+
+
+li {margin-bottom:10px; text-align:left;}
+
+.left {
+	text-align:left !important;
+	margin-left: 100px;
+}
+.right {
+	text-align:right !important;
+}
+.link {
+	font-weight: normal;
+	text-align:center;
+}
+em, em strong, em u, .red, .red strong {
+	color:red;
+	font-weight: bold;
+	font-style:normal;
+}
+.green, .green strong, u {
+	color:#0C0;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration:none;
+}
+.violet {
+	color:#9900FF;
+	font-weight: bold;
+	font-style:normal;
+}
+.colspan {
+	font-weight:bold;
+	text-align:center;
+}
+.button-red a {
+	background:#C00;
+}
+
+.button-yellow a {
+	background:#eab800;
+}
+
+.button-green a {
+	background:#4caf50;
+}
+
+.button-blue a {
+	background:#09F;
+}
+
+.button-violet a {
+	background:#8888ff;
+}
+.button-red a, .button-yellow a, .button-green a, .button-blue a, .button-violet a  {
+	color:#FFF;
+	font-weight: bold;
+	border-radius: 100px 100px;
+	padding:4px 20px;
+	text-decoration:none;
+	width:auto;
+}
+.button a:hover, .button-red a:hover, .button-blue a:hover, .button-violet a:hover  {
+	border:2px solid #333;
+	opacity:0.7;
+}
+
+.gray {color:#ddd}
+
+ul, ol {margin-left:10%;}
+
+*[class^="a-"] {
+	float:left;
+	margin:1px;
+    align-items: center;
+    display: flex;
+	border-radius: 5px;
+}
+.invisible-table *[class^="a-"] a {
+	color:black;
+	text-decoration:none;
+	width: 300px;
+	min-height: 50px;
+	padding: 0px 5px;
+	/*padding-top: 10px;*/
+	font-size: 16px;
+	/*display: flex;*/
+	/* justify-content: center; */
+	display: grid;
+	align-items: center;
+}
+.a-green {
+	background:lightgreen;
+}
+
+.a-red {
+	background:#ff8888;
+}
+.a-blue {
+	background:#8888ff;
+}
+.a-yellow {
+	background:#ffff44;
+}
+.a-purpure {
+	background:#ff88ff;
+}
+.a-orange {
+	background:#ff8844;
+}
+.a-aquamarine {
+	background:#88ffff;
+}
+
+a:hover {
+}
+
+hr {clear:both;}
+.clear {clear:both;}
