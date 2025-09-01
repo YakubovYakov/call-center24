@@ -22,8 +22,3 @@
 - **Frontend:** React (CRA), CSS
 - **Data prep:** Python, BeautifulSoup
 - **Сервис/деплой:** Nginx, `serve`, `pm2`, Linux VPS
-
----
-
-## Структура
-
